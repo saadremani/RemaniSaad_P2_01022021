@@ -1,0 +1,174 @@
+
+
+/* ALL PAGE ARCHITECURE */
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* HEADER PART */
+.header {
+    border: 1px solid red;
+    min-height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.logo{
+    border: 1px solid red;
+    width: 10rem;
+
+}
+.logoImg {
+    border: 1px solid red;
+    width: 4rem;
+    margin-right: 35rem;
+    margin-left: 2rem;
+
+}
+.menu {
+    border: 1px solid red;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 50rem;
+}
+
+.underMenu{
+    border: 1px solid red;
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.underMenu a {
+    text-decoration: none;
+    color:gray;
+    font-family:Raleway;
+
+}
+.underMenu a:hover {
+    color:blue;
+    border-top: 3px solid blue;
+
+}
+
+/* CONTENT PART */
+
+.content {
+    
+    border: 1px solid red;
+    flex: 1;
+    margin-left: 2rem;
+}
+/* Filter PART */
+
+.filtre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.underFiltre{
+    border: 1px solid red;
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 20rem;
+
+}
+/*text part inside the border */
+.underFiltre a{
+    text-decoration: none;
+    color:black;
+    font-family:Raleway;
+}
+
+/* Section héberement à Marseille part */
+
+.lodgingAvailable{
+    border: 1px solid red;
+    width: 70%;
+    height: 30rem;
+
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card__img {
+    height: 5rem;
+    width: 5rem;
+    margin:12px;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 1px 1px 6px grey;
+}
+
+
+
+/* FOOTER PART */
+.footer {
+
+    border: 1px solid red;
+    min-height: 10rem;
+    background-color:#F2F2F2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+.footerLeft{
+    width: 15rem;
+    border: 1px solid red;
+    padding: 1rem;
+    
+}
+.footerCenter{
+    width: 15rem;
+    border: 1px solid red;
+    padding: 1rem;
+
+}
+
+
+.footerRight{
+    width: 20rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+.footerLeftMenu{
+    border: 1px solid red;
+    height: 5rem;
+    list-style-type: none;
+
+
+}
+.footerCenterMenu{
+    border: 1px solid red;
+    list-style-type: none;
+    height: 5rem;
+
+}
+.footerRightMenu{
+    border: 1px solid red;
+    height: 5rem;
+    list-style-type: none;
+
+}
+.underFooter a{
+    text-decoration: none;
+    text-decoration: none;
+    color:gray;
+}
