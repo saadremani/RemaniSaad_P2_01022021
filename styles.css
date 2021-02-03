@@ -68,7 +68,6 @@ body {
     
     border: 1px solid red;
     flex: 1;
-    margin-left: 2rem;
 }
 /* Filter PART */
 
@@ -96,7 +95,7 @@ body {
 
 .lodgingAvailable{
     border: 1px solid red;
-    width: 70%;
+    width: 100%;
     height: 30rem;
 
 }
@@ -112,6 +111,8 @@ body {
     padding:10px;
     border-radius:5px;
     box-shadow: 1px 1px 6px grey;
+    margin-left:4rem;
+
 }
 
 
