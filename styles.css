@@ -14,7 +14,6 @@ body {
 
 /* HEADER PART */
 .header {
-    border: 1px solid red;
     min-height: 4rem;
     display: flex;
     flex-direction: row;
@@ -23,18 +22,15 @@ body {
     justify-content: space-between;
     }
 .logo{
-    border: 1px solid red;
     width: 10rem;
 
 }
 .logoImg {
-    border: 1px solid red;
     width: 6rem;
     margin-left: 2rem;
 
 }
 .menu {
-    border: 1px solid red;
     min-height: 3rem;
     display: flex;
     flex-direction: row;
@@ -44,7 +40,6 @@ body {
 }
 
 .underMenu{
-    border: 1px solid red;
     list-style-type: none;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -182,13 +177,11 @@ border: 1px solid red;
 }
 .footerLeft{
     width: 15rem;
-    border: 1px solid red;
     padding: 1rem;
     
 }
 .footerCenter{
     width: 15rem;
-    border: 1px solid red;
     padding: 1rem;
 
 }
@@ -196,24 +189,20 @@ border: 1px solid red;
 
 .footerRight{
     width: 20rem;
-    border: 1px solid red;
     padding: 1rem;
 }
 .footerLeftMenu{
-    border: 1px solid red;
     height: 5rem;
     list-style-type: none;
 
 
 }
 .footerCenterMenu{
-    border: 1px solid red;
     list-style-type: none;
     height: 5rem;
 
 }
 .footerRightMenu{
-    border: 1px solid red;
     height: 5rem;
     list-style-type: none;
 
