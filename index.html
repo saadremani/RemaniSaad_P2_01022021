@@ -22,7 +22,7 @@
             <!--logo-->
 
              <div class="logo">
-                <a href="index.html"><img class="logoImg" src="img/logo/logo.png" alt="logoDuSite"/> </a>
+                <a href="index.html"><img class="logoImg" src="img/logo/Reservia.svg" alt="logoDuSite"/> </a>
            
              </div> 
             <!--End-logo-->
@@ -32,7 +32,7 @@
              <ul class="menu">
                  <li class="underMenu"><p><a href="#">Hébergements</a></p></li>
                  <li class="underMenu"><p><a href="#">Activités</a></p></li>
-                 <li class="underMenu"><p><a href="#"><strong>S'inscrire</strong></a></p></li>
+                 <li class="underMenu"><p><a href="#"><strong style="color: blue;">S'inscrire</strong></a></p></li>
              </ul>
             </nav>
              <!--End-menu-->
@@ -50,23 +50,45 @@
             
 
             <!--ici la barre recherche--> 
-            
-            <form> 
-                 <div> 
-                    <i class="fas fa-map-marker-alt"></i> <input type="search" id="maRecherche" name="q"> <button>Rechercher</button> 
-                 </div>             
+            <form class="post" action="traitement.php">
+                <label class="position">
+                    <i class="fas fa-map-marker-alt"></i>
+                </label>
+                <input id="search" type="search" name="recherche"  placeholder="Marseille,France">
+                <button class="logoRecherche" type="submit">
+                    <span>Rechercher</span>
+                </button>
             </form>
 
             <!--ici la liste Filtres--> 
-             <div>
-                <ul class="filtre">
-                    <li class="underFiltre"><p><a href="#"><strong>Filtres</strong></a></p></li>
-                    <li class="underFiltre"><p><a href="#"><strong><i class="fas fa-money-bill-wave"></i>Économique</strong></a></p></li>
-                    <li class="underFiltre"><p><a href="#"><strong><i class="fas fa-child"></i>Familial</strong></a></p></li>
-                    <li class="underFiltre"><p><a href="#"><strong><i class="fas fa-heart"></i>Romantique</strong></a></p></li>
-                    <li class="underFiltre"><p><a href="#"><strong><i class="fas fa-dog"></i>Animaux autorisés</strong></a></p></li>
-                </ul> 
+            <div class="themes">
+
+                <h2>Filtres</h2>
+        
+                <div class="point">
+        
+                    <section class="item">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <h3>Economique</h3>
+                    </section>  
+                    <section class="item">
+                        <i class="fas fa-child"></i>
+                        <h3>Familial</h3>
+                    </section>        
+        
+        
+        
+                    <section class="item">
+                        <i class="fas fa-heart"></i>
+                        <h3>Romantique</h3>
+                    </section>        
+                    <section class="item">
+                        <i class="fas fa-dog"></i>
+                        <h3>Animaux autorisés</h3>
+                    </section>       
+                </div>
             </div>
+
             <!--ici Fin de la liste Filtres--> 
 
             <!--ici nombre de logement--> 
@@ -76,11 +98,14 @@
             </div>
              <!--ici Fin de nombre de logement--> 
 
-             <!--ICI SECTION HÉBERGEMENT À MARSEILLE-->
-             <section class="lodgingAvailable">
-                 <h4 class="headingSecondary">Hébergements à Marseille</h4>
+            <section class="booking">
+
+            
+
+            <!--ICI SECTION HÉBERGEMENT À MARSEILLE-->
 
                     <figure class="card">
+                        <h2 class="headingSecondary">Hébergements à Marseille</h2>
                         <div class="cardBox">
                             <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
                             <h4>Auberge la Cannebière</h4>
@@ -159,17 +184,72 @@
                                 <i class="fas fa-star grey"></i>
                             </div>
                         </div>
-
+                
+                        <h4 class="headingSecondary">Afficher plus</h4>
                     </figure>
-             </section>
+           
+
+             <!--ICI SECTION LES PLUS POPULAIRES-->
+
+            <figure class="populaireMenu">
+                <div class="contentRight">
+                <h2 class="#">Les plus populaires</h2> <i class="fas fa-chart-line"></i>
+                
+                </div>
+                
+
+                <div class="populaireUnderMenu">
+                    <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Auberge la Cannebière" class="cardPopulaire">
+                    <h4>Hotel le soleil du matin</h4>
+                            <p>Nuit à partir de <strong>128€</strong></p>
+                            <div class="star">
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star grey"></i>
+                            </div>
+                </div>
+
+                <div class="populaireUnderMenu">
+                    <img src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Auberge la Cannebière" class="cardPopulaire">
+                    <h4>Au coeur de l'eau chambres d'hotes</h4>
+                            <p>Nuit à partir de <strong>72€</strong></p>
+                            <div class="star">
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star grey"></i>
+                            </div>
+                    </div>
+
+                <div class="populaireUnderMenu">
+                    <img src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Auberge la Cannebière" class="cardPopulaire">
+                    <h4>Hotel tout bleu et tout blanc</h4>
+                            <p>Nuit à partir de <strong>68€</strong></p>
+                            <div class="star">
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star blue"></i>
+                                <i class="fas fa-star grey"></i>
+                            </div>
+                </div>
+
+
+            </figure>
+            <!--ICI LA FIN DE LA SECTION LES PLUS POPULAIRES-->
+
+            </section>
 
              <!--ICI LA FIN DE SECTION HÉBERGEMENT À MARSEILLE-->
 
              <!--ICI SECTION Activité À MARSEILLE-->
 
              <section>
-                <h4 class="#">Activités à Marseille</h4>
                 <figure class="card">
+                    <h2 class="activity">Activités à Marseille</h2>
                     <div class="cardBox">
                         <img src="img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
                         <h4>Auberge la Cannebière</h4>
@@ -200,7 +280,6 @@
              </section>
 
              <!--ICI la FIN DE LA SECTION Activité À MARSEILLE-->
-
 
              
 

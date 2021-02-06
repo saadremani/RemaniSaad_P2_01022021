@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'raleway', sans-serif;
 }
 
 .container {
@@ -14,27 +15,23 @@ body {
 
 /* HEADER PART */
 .header {
-    border: 1px solid red;
     min-height: 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
     }
 .logo{
-    border: 1px solid red;
     width: 10rem;
 
 }
 .logoImg {
-    border: 1px solid red;
-    width: 4rem;
-    margin-right: 35rem;
+    width: 6rem;
     margin-left: 2rem;
 
 }
 .menu {
-    border: 1px solid red;
     min-height: 3rem;
     display: flex;
     flex-direction: row;
@@ -44,12 +41,12 @@ body {
 }
 
 .underMenu{
-    border: 1px solid red;
     list-style-type: none;
     margin-left: 2rem;
     margin-right: 2rem;
-
 }
+
+
 .underMenu a {
     text-decoration: none;
     color:gray;
@@ -69,40 +66,120 @@ body {
     border: 1px solid red;
     flex: 1;
 }
-/* Filter PART */
 
-.filtre{
+/*barre de recherche*/
+.post{
+    display: flex;
+    margin-top: 20px;
+}
+.position {
+    background: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 18px;
+}
+
+  .post button {
+    width: 10rem;
+    border: 0;
+    margin-right: 10px;
+    background: #0065FC;
+    color: #fff;
+    cursor: pointer;
+  }
+ .logoRecherche{
+    border-radius: 0px 15px 15px 0px;
+  }
+  #id{
+      width:12rem;
+  }
+/* Filter PART */
+.themes {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.themes h2 {
+    margin-right: 30px;
+}
+.point {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.item {
+    height: 50px;
+    margin: 10px 20px 10px 0;
+    padding-right: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+ }
+ .item i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dae4f3;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+
+ }
+.booking{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ICI SECTION LES PLUS POPULAIRES */
+.populaire{
+border: 1px solid red;
+
+}
+.hhh{
+    display: flex;
+}
+.populaireMenu{
+    border: 1px solid red;
+    /* width: 100%; */
+    /* height: 20rem; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-.underFiltre{
-    border: 1px solid red;
-    list-style-type: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-radius: 20rem;
 
 }
-/*text part inside the border */
-.underFiltre a{
-    text-decoration: none;
-    color:black;
-    font-family:Raleway;
+
+.cardPopulaire{
+    height: 5rem;
+    width: 5rem;
+    margin:12px;
+    padding:10px;
+    border-radius:5px;
+    box-shadow: 1px 1px 6px grey;
+    margin-left:4rem;
+
 }
 
 /* Section héberement à Marseille part */
+.headingSecondary{
+    width: -webkit-fill-available;
 
-.lodgingAvailable{
-    border: 1px solid red;
-    width: 100%;
-    height: 30rem;
+}
 
+.contentRight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: -webkit-fill-available;
 }
 .card{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* width: 60%; */
+    /* height: 90%; */
+    border: 1px solid red;
 }
 .card__img {
     height: 5rem;
@@ -112,6 +189,12 @@ body {
     border-radius:5px;
     box-shadow: 1px 1px 6px grey;
     margin-left:4rem;
+
+}
+
+.activity{
+    width: -webkit-fill-available;
+
 
 }
 
@@ -132,13 +215,11 @@ body {
 }
 .footerLeft{
     width: 15rem;
-    border: 1px solid red;
     padding: 1rem;
     
 }
 .footerCenter{
     width: 15rem;
-    border: 1px solid red;
     padding: 1rem;
 
 }
@@ -146,24 +227,20 @@ body {
 
 .footerRight{
     width: 20rem;
-    border: 1px solid red;
     padding: 1rem;
 }
 .footerLeftMenu{
-    border: 1px solid red;
     height: 5rem;
     list-style-type: none;
 
 
 }
 .footerCenterMenu{
-    border: 1px solid red;
     list-style-type: none;
     height: 5rem;
 
 }
 .footerRightMenu{
-    border: 1px solid red;
     height: 5rem;
     list-style-type: none;
 
