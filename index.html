@@ -50,11 +50,14 @@
             
 
             <!--ici la barre recherche--> 
-            
-            <form> 
-                 <div> 
-                    <i class="fas fa-map-marker-alt"></i> <input type="search" id="maRecherche" name="q"> <button>Rechercher</button> 
-                 </div>             
+            <form class="post" action="traitement.php">
+                <label class="position">
+                    <i class="fas fa-map-marker-alt"></i>
+                </label>
+                <input id="search" type="search" name="recherche"  placeholder="Marseille,France">
+                <button class="logoRecherche" type="submit">
+                    <span>Rechercher</span>
+                </button>
             </form>
 
             <!--ici la liste Filtres--> 

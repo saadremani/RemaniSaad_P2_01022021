@@ -65,6 +65,32 @@ body {
     border: 1px solid red;
     flex: 1;
 }
+
+/*barre de recherche*/
+.post{
+    display: flex;
+    margin-top: 20px;
+}
+.position {
+    background: #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 18px;
+}
+
+  .post button {
+    width: 10rem;
+    border: 0;
+    margin-right: 10px;
+    background: #0065FC;
+    color: #fff;
+    cursor: pointer;
+  }
+ .logoRecherche{
+    border-radius: 0px 15px 15px 0px;
+  }
+  #id{
+      width:12rem;
+  }
 /* Filter PART */
 
 .filtre{
