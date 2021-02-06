@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'raleway', sans-serif;
 }
 
 .container {
@@ -92,26 +93,39 @@ body {
       width:12rem;
   }
 /* Filter PART */
-
-.filtre{
+.themes {
+    height: auto;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
-.underFiltre{
-    border: 1px solid red;
-    list-style-type: none;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-radius: 20rem;
+.themes h2 {
+    margin-right: 30px;
+}
+.point {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.item {
+    height: 50px;
+    margin: 10px 20px 10px 0;
+    padding-right: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+ }
+ .item i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dae4f3;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
 
-}
-/*text part inside the border */
-.underFiltre a{
-    text-decoration: none;
-    color:black;
-    font-family:Raleway;
-}
+ }
 .booking{
     display: flex;
     flex-direction: row;
@@ -134,9 +148,7 @@ border: 1px solid red;
     flex-wrap: wrap;
 
 }
-.populaireUnderMenu{
 
-}
 .cardPopulaire{
     height: 5rem;
     width: 5rem;
