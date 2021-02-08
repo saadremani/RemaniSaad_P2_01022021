@@ -15,6 +15,7 @@ body {
 }
 
 /* HEADER PART */
+
 .header {
     display: flex;
     flex-direction: row;
@@ -76,10 +77,11 @@ body {
 .content {
     
     border: 1px solid red;
-    flex: 1;
+    /* flex: 1*/
 }
 
 /*barre de recherche*/
+
 .post{
     display: flex;
     margin-top: 20px;
@@ -98,22 +100,33 @@ body {
     color: #fff;
     cursor: pointer;
   }
- .logoRecherche{
+ .logo_recherche{
     border-radius: 0px 15px 15px 0px;
   }
   #id{
       width:12rem;
   }
+  ::placeholder { /* Firefox, Chrome, Opera */ 
+    color: black; 
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    padding:1rem;
+} 
+
 /* Filter PART */
+
 .themes {
     height: auto;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 .themes h2 {
     margin-right: 30px;
 }
-.point {
+.list {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
@@ -138,6 +151,20 @@ body {
     color: #0065FC;
 
  }
+
+ .fa-info  {
+    color: #0065FC;
+    /* margin-right: 6px; */
+    margin-left: 1rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background: #dae4f3; */
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+ }
+
 .booking{
     display: flex;
     flex-direction: row;
