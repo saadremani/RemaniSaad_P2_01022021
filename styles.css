@@ -11,49 +11,61 @@ body {
     display: flex;
   min-height: 100vh;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* HEADER PART */
 .header {
-    min-height: 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    }
-.logo{
-    width: 10rem;
+    width: 100%;
+    height: auto;
 
+    }
+
+.logo{
+    display: flex;
 }
-.logoImg {
-    width: 6rem;
+.logo_img {
+    width: 60%;
     margin-left: 2rem;
 
 }
-.menu {
-    min-height: 3rem;
+.navbar{
+    width: 60%;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-    width: 50rem;
+}
+.navar_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /* width: 80%; */
+    height: auto;
+    
 }
 
-.underMenu{
+.under-Menu{
     list-style-type: none;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
 
-.underMenu a {
+.under-Menu a {
     text-decoration: none;
     color:gray;
     font-family:Raleway;
 
 }
-.underMenu a:hover {
+.under-Menu a:hover {
     color:blue;
     border-top: 3px solid blue;
 
