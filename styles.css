@@ -48,7 +48,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-    /* width: 80%; */
     height: auto;
     
 }
@@ -164,6 +163,7 @@ body {
     width: 25px;
     height: 25px;
  }
+
 /* booking section  */
 #hebergement{
     margin-top: 50px;
@@ -173,8 +173,17 @@ body {
     display: flex;
     flex-direction: row;
 }
-
 /* Section héberement à Marseille part */
+
+.location {
+    width: 60%;
+    background: #f2f2f2;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .headingSecondary{
     width: 100%;
     padding: 15px;
@@ -189,6 +198,7 @@ body {
     transform: scale(1);
     transition: .2s ease-in-out;
     cursor: pointer;
+    box-shadow: 1px 1px 20px 1px;
 }
 .description{
     padding: 5px;
@@ -204,8 +214,11 @@ body {
     padding-top: 20px;
 }
 
+/* ICI SECTION LES PLUS POPULAIRES */
+
 #best{
     margin-left: 30px;
+    width: 30%;
 }
 .populaire {
     display: flex;
@@ -214,7 +227,41 @@ body {
     height: 100%;
     background: #f2f2f2;
     border-radius: 20px;
-    padding: 30px;
+    padding: 25px;
+}
+.block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.block i {
+    font-size: 25px;
+}
+.most-popular {
+    margin-top: 50px;
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 140px;
+    border-radius: 27px 20px 20px 27px;
+    box-shadow: 1px 1px 20px 1px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.most-popular img {
+    margin: 5px;
+    height: 130px;
+    width: 120px;
+    object-fit: cover;
+    margin-top: 5px;
+    border-radius: 20px 0 0px 20px;
+}
+.resum {
+    font-size: 15px;
+    padding-bottom: 50px;
+    margin: 10px;
 }
 
 .contentRight{
@@ -224,28 +271,7 @@ body {
     justify-content: space-between;
     width: -webkit-fill-available;
 }
-.location{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* width: 60%; */
-    /* height: 90%; */
-    border: 1px solid red;
-    border: 2px solid #f2f2f2;
-    border-radius: 5%;
-    background: #F2F2F2;
-}
-.cardBox{
-    border: 1px solid red;
-    width: 14rem;
-    height: 10rem;
-    margin: 12px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 6px grey;
-    margin-left: 4rem;
 
-}
 .card__img {
     width: 100%;
     object-fit: cover;
@@ -254,45 +280,6 @@ body {
     height: 130px;
 
 }
-
-.activity{
-    width: -webkit-fill-available;
-
-
-}
-
-/* ICI SECTION LES PLUS POPULAIRES */
-.populaire{
-    border: 1px solid red;
-    
-    }
-    .hhh{
-        display: flex;
-    }
-    .populaireMenu{
-        border: 1px solid red;
-        /* width: 100%; */
-        /* height: 20rem; */
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        border: 2px solid #f2f2f2;
-        border-radius: 5%;
-        background:#F2F2F2
-    
-    }
-    
-    .cardPopulaire{
-        height: 5rem;
-        width: 5rem;
-        margin:12px;
-        padding:10px;
-        border-radius:5px;
-        box-shadow: 1px 1px 6px grey;
-        margin-left:4rem;
-    
-    }
-    
 
 /* FOOTER PART */
 .footer {
