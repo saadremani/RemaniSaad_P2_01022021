@@ -206,6 +206,13 @@ body {
     font-size: 13px;
     padding-top: 20px;
 }
+.location :hover {
+
+    transform: scale(1.02);
+
+}
+
+
 
 /* -------------------------ICI SECTION LES PLUS POPULAIRES -----------------------------*/
 
@@ -265,6 +272,11 @@ body {
     box-sizing: border-box;
     border-radius: 25px 25px 0 0;
     height: 130px;
+
+}
+.populaire :hover {
+
+    transform: scale(1.02);
 
 }
 /* -----------------------------ICI SECTION LES  ACTIVITÉS------------------------------------ */
