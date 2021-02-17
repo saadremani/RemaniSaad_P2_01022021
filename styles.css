@@ -69,6 +69,11 @@ body {
     border-top: 2px solid #0065FC;
     padding-top: 31px;
 }
+@media screen and (max-width:980px)
+{
+
+    
+}
 
 /*------------------------------ CONTENT PART --------------------------------------*/
 
@@ -618,7 +623,7 @@ body {
     
 }
 .footer_title{
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 
