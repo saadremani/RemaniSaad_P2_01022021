@@ -43,7 +43,7 @@ body {
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-.navar_menu {
+.navbar_menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -66,9 +66,8 @@ body {
 
 }
 .under-Menu a:hover {
-    color:blue;
-    border-top: 3px solid blue;
-
+    border-top: 2px solid #0065FC;
+    padding-top: 31px;
 }
 
 /*------------------------------ CONTENT PART --------------------------------------*/
@@ -119,10 +118,14 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 15px;
+    margin-bottom: 30px;
 }
-.themes h2 {
+.themes h3 {
     margin-right: 30px;
+    margin-left: 15px;
 }
+.filtre{
+    margin-top: 25px;}
 .list {
     display: flex;
     flex-grow: 1;
@@ -183,7 +186,7 @@ body {
     cursor: pointer;
 }
 .annonce{
-    width: calc(30% - 30px);
+    width: calc(32% - 30px);
     background: #fff;
     padding: 5px;
     border-radius: 25px;
@@ -202,7 +205,7 @@ body {
     padding-top: 20px;
 }
 .grey {
-    color: #f2f2f2;
+    color: #D3D3D3;
     font-size: 13px;
     padding-top: 20px;
 }
@@ -248,7 +251,7 @@ body {
     width: 100%;
     height: 140px;
     border-radius: 27px 20px 20px 27px;
-    box-shadow: 1px 1px 5px 1px;
+    box-shadow: 0px 0px 5px 0px;
     transform: scale(1);
     transition: .2s ease-in-out;
     cursor: pointer;
@@ -307,8 +310,8 @@ body {
     
     display: flex;
     align-items: stretch;
-    margin: 0 -15px;
-    padding-top: 20px;
+
+   
     
     
 }
@@ -362,11 +365,12 @@ body {
 
 
 
-.grandes h3 {
+.grandes h4 {
 
     padding: 15px;
-
+    font-size: 15px;
 }
+
 
 
 
@@ -451,10 +455,11 @@ body {
 }
 
 
-.fort h3 {
+.fort h4 {
 
     margin-left: 10px;
     padding: 10px;
+    font-size: 15px;
 
 }
 
@@ -480,10 +485,11 @@ body {
 }
 
 
-.frioul h3 {
+.frioul h4 {
 
     margin-left: 10px;
     padding: 10px;
+    font-size: 15px;
   
 
 }
@@ -514,11 +520,11 @@ body {
 
 
 
-.dame h3 {
+.dame h4 {
 
     margin-left: 10px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
     
 }
 
@@ -542,10 +548,11 @@ body {
 }
 
 
-.longchamp h3 {
+.longchamp h4 {
 
     margin-left: 10px;
     padding: 10px;
+    font-size: 15px;
    
  
  }
@@ -562,29 +569,28 @@ body {
 /* ---------------------------FOOTER PART--------------------------- */
 .footer {
 
-    min-height: 10rem;
+    height: 150px;
     background-color:#F2F2F2;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     
 
 }
 .footerLeft{
-    width: 15rem;
+    width: 30%;
     padding: 1rem;
     
 }
 .footerCenter{
-    width: 15rem;
+    width: 30%;
     padding: 1rem;
 
 }
 
 
 .footerRight{
-    width: 20rem;
+    width: 30%;
     padding: 1rem;
 }
 .footerLeftMenu{
@@ -603,12 +609,14 @@ body {
     list-style-type: none;
 
 }
+.underFooter {
+    margin: 10px;
+}
 .underFooter a{
     text-decoration: none;
-    text-decoration: none;
     color:black;
+    
 }
 .footer_title{
     margin-left: 2rem;
 }
-
