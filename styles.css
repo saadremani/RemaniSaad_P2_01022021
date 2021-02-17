@@ -620,3 +620,29 @@ body {
 .footer_title{
     margin-left: 2rem;
 }
+
+
+/* ---------------------------FOOTER media Queries--------------------------- */
+
+@media screen and (max-width:980px)
+{
+    
+    .footer{
+        display:flex;
+        flex-direction: column;
+        height:auto;
+    }
+    .footerLeft{
+        width: 60%;
+    padding: 1rem;
+    }
+    .footerCenter{
+        width: 60%;
+    padding: 1rem;
+    }
+    .footerRight{
+        width: 60%;
+    padding: 1rem;
+    }
+    
+}
