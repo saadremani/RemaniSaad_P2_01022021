@@ -40,9 +40,7 @@ a {
     border-top: 3px transparent solid;
     border-bottom: 3px transparent solid;
   }
-  .headerNavLink[data-active=true] {
-    color: #0065FC;
-  }
+
   .headerNavLink:hover {
     color: #0065FC;
   }
@@ -60,9 +58,7 @@ a {
       grid-template-columns: auto 1fr auto auto;
       grid-template-areas: "logo . navbar button";
     }
-    .headerNavLink[data-active=true] {
-      border-top: 3px solid #0065FC;
-    }
+  
     .headerNavLink:hover {
       border-top: 3px solid #0065FC;
     }
