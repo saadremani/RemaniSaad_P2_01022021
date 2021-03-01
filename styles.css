@@ -291,9 +291,7 @@ a {
 {
     .hebergement_title{
         width: 86%;
-        cursor: pointer;
-        margin-block-start: 0;
-        margin-block-end: 0;
+        cursor: pointer;  
     }
 .hebergement_annonce{
     width: 81%;
@@ -306,14 +304,7 @@ a {
     transition: .2s ease-in-out;
     cursor: pointer;
 }
-.annonce--title{
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-.annonce--parag {
-    margin-block-start: 10px;
-    margin-block-end: 0;
-}
+
 }
 .annonce--description{
     padding: 5px;
@@ -411,8 +402,6 @@ a {
 @media (max-width: 900px) {
 
 .popular--title{
-    margin-block-end: 0;
-    margin-block-start: 0;
     word-break: break-word;
 }
 }
