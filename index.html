@@ -23,11 +23,11 @@
      
          <header class="header">
           <img class="header_img" src="./img/logo/Reservia.svg" alt="Reservia">
-          <nav class="headerNav">
-            <a class="headerNavLink" href="#hosting" data-active="true">Hébergement</a>
-            <a class="headerNavLink" href="#activity" data-active="false">Activités</a>
+          <nav class="header_nav">
+            <a class="header_nav_link" href="#hosting" data-active="true">Hébergement</a>
+            <a class="header_nav_link" href="#activity" data-active="false">Activités</a>
           </nav>
-          <a class="headerSignup" href="#">S'inscrire</a>
+          <a class="header_signup" href="#">S'inscrire</a>
         </header>
 
 
@@ -39,41 +39,41 @@
             
 
             <!--Début de la barre recherche--> 
-            <form class="post" action="traitement.php">
-                <label class="position">
+            <form class="site-navigation" action="#">
+                <div class="site-navigation_position">
                     <i class="fas fa-map-marker-alt"></i>
-                </label>
-                <input id="search" type="search" name="recherche" placeholder="Marseille, France">
-                <button class="logo_recherche" type="submit">
-                    <span>Rechercher</span>  <i class="fas fa-search"></i>
+                </div>
+                <input id="search"  placeholder="Marseille, France">
+                <button class="logo--recherche">
+                    <span>Rechercher</span> <i class="fas fa-search"></i>
                 </button>
             </form>
 
 
             <!--Début de la liste Filtres--> 
              
-            <div class="themes">
+            <div class="filtre">
 
-                <h3 class="filtre">Filtres</h3>
+                <h3 class="filtre_title">Filtres</h3>
         
-                <div class="list">
+                <div class="filtre_list">
         
-                    <section class="item">
+                    <section class="filtre_item">
                         <i class="fas fa-money-bill-wave"></i>
                         <h3>Economique</h3>
                     </section>  
-                    <section class="item">
+                    <section class="filtre_item">
                         <i class="fas fa-child"></i>
                         <h3>Familial</h3>
                     </section>        
         
         
         
-                    <section class="item">
+                    <section class="filtre_item">
                         <i class="fas fa-heart"></i>
                         <h3>Romantique</h3>
                     </section>        
-                    <section class="item">
+                    <section class="filtre_item">
                         <i class="fas fa-dog"></i>
                         <h3>Animaux autorisés</h3>
                     </section>       
@@ -92,16 +92,16 @@
            
 
             <!--ICI SECTION HÉBERGEMENT À MARSEILLE-->
-            <section class="hebergement">
+            <section class="location">
              <div class="booking">
 
-                    <div class="location">
-                        <h2 class="headingSecondary">Hébergements à Marseille</h2>
-                            <div class="annonce">
+                    <div class="hebergement">
+                        <h2 class="hebergement_title">Hébergements à Marseille</h2>
+                            <div class="hebergement_annonce">
                              <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
-                                <div class="description">
-                                 <h4 class="annonce-title">Auberge la Cannebière</h4>
-                                    <p class="annonce-parag">Nuit à partir de <strong>25€</strong></p>
+                                <div class="annonce--description">
+                                 <h4 class="annonce--title">Auberge la Cannebière</h4>
+                                    <p class="annonce--parag">Nuit à partir de <strong>25€</strong></p>
                                     <div class="star">
                                     <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                                     <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -112,11 +112,11 @@
                                 </div>
                             </div>
 
-                            <div class="annonce">
+                            <div class="hebergement_annonce">
                                 <img src="img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
-                                   <div class="description">
-                                    <h4 class="annonce-title">Hôtel du port</h4>
-                                       <p class="annonce-parag">Nuit à partir de <strong>52€</strong></p>
+                                   <div class="annonce--description">
+                                    <h4 class="annonce--title">Hôtel du port</h4>
+                                       <p class="annonce--parag">Nuit à partir de <strong>52€</strong></p>
                                        <div class="star">
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -127,11 +127,11 @@
                                    </div>
                                </div>
 
-                               <div class="annonce">
+                               <div class="hebergement_annonce">
                                 <img src="img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
-                                   <div class="description">
-                                    <h4 class="annonce-title">Hôtel Les mouettes</h4>
-                                    <p class="annonce-parag">Nuit à partir de <strong>76€</strong></p>
+                                   <div class="annonce--description">
+                                    <h4 class="annonce--title">Hôtel Les mouettes</h4>
+                                    <p class="annonce--parag">Nuit à partir de <strong>76€</strong></p>
                                        <div class="star">
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -142,11 +142,11 @@
                                    </div>
                                 </div>
 
-                               <div class="annonce">
+                               <div class="hebergement_annonce">
                                 <img src="img/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
-                                   <div class="description">
-                                    <h4 class="annonce-title">Hôtel de la mer</h4>
-                                    <p class="annonce-parag">Nuit à partir de <strong>46€</strong></p>
+                                   <div class="annonce--description">
+                                    <h4 class="annonce--title">Hôtel de la mer</h4>
+                                    <p class="annonce--parag">Nuit à partir de <strong>46€</strong></p>
                                        <div class="star">
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -157,11 +157,11 @@
                                    </div>
                                </div>
 
-                               <div class="annonce">
+                               <div class="hebergement_annonce">
                                 <img src="img/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
-                                   <div class="description">
-                                    <h4 class="annonce-title">Auberge Le Panier</h4>
-                                    <p class="annonce-parag" class="annonce-parag">Nuit à partir de <strong>23€</strong></p>
+                                   <div class="annonce--description">
+                                    <h4 class="annonce--title">Auberge Le Panier</h4>
+                                    <p class="annonce--parag">Nuit à partir de <strong>23€</strong></p>
                                        <div class="star">
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -172,11 +172,11 @@
                                    </div>
                                </div>
 
-                               <div class="annonce">
+                               <div class="hebergement_annonce">
                                 <img src="img/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Auberge la Cannebière" class="card__img">
-                                   <div class="description">
-                                    <h4 class="annonce-title">Hôtel chez Amina</h4>
-                                    <p class="annonce-parag">Nuit à partir de <strong>96€</strong></p>
+                                   <div class="annonce--description">
+                                    <h4 class="annonce--title">Hôtel chez Amina</h4>
+                                    <p class="annonce--parag">Nuit à partir de <strong>96€</strong></p>
                                        <div class="star">
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                                        <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -189,7 +189,7 @@
 
                       
                 
-                        <h4 class="headingSecondary">Afficher plus</h4>
+                        <h4 class="hebergement_title">Afficher plus</h4>
                     </div>
 
 
@@ -197,14 +197,14 @@
 
              <!--ICI SECTION LES PLUS POPULAIRES-->
               <div id="best">
-                 <div class="populaire">
-                     <div class="block">
-                        <h2 class="titre2">Les plus populaires</h2><i class="fas fa-chart-line"></i>
+                 <div class="popular">
+                     <div class="popular_heading">
+                        <strong><span class="populaire_title">Les plus populaires</span></strong><i class="fas fa-chart-line"></i>
                      </div>
-                     <article class="most-popular">
+                     <article class="most--popular">
                      <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photo de l'hôtel Le soleil du matin">
-                     <div class="resum">
-                         <h4 class=populaire--title>Hôtel du Soleil du matin</h4>
+                     <div class="popular_description">
+                         <h4 class=popular--title>Hôtel du Soleil du matin</h4>
                          <p>Nuit à partir de <strong>128€</strong></p>
                          <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                          <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -213,9 +213,9 @@
                          <span class="blue"><i class="fas fa-star stars_icon"></i></span>
                      </div>
                  </article>
-                 <article class="most-popular">
+                 <article class="most--popular">
                     <img src="img/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Photo Au coeur de l'eau Chambres d'hôtes">
-                    <div class="resum">
+                    <div class="popular_description">
                         <h4 class=populaire--title>Au coeur de l'eau Chambres d'hôtes</h4>
                         <p>Nuit à partir <strong>71€</strong></p>
                         <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -225,9 +225,9 @@
                         <span class="grey"><i class="fas fa-star stars_icon"></i></span>
                     </div>
                 </article>
-                <article class="most-popular">
+                <article class="most--popular">
                     <img src="img/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photo de l'hôtel Tout bleu et blanc ">
-                    <div class="resum">
+                    <div class="popular_description">
                         <h4 class=populaire--title>Hôtel Tout bleu et blanc</h4>
                         <p>Nuit à partir <strong>68€</strong></p>
                         <span class="blue"><i class="fas fa-star stars_icon"></i></span>
@@ -248,66 +248,66 @@
              <!--ICI SECTION Activité À MARSEILLE-->
                 
     <section class="activity" id="activity">
-        <h2 class="activityTitle">Activités à Marseille</h2>
-        <a href="#" class="activityCard activityCard1">
-          <div class="activityCardWrapimg">
+        <h2 class="activity_title">Activités à Marseille</h2>
+        <a href="#" class="activity_card activity_card1">
+          <div class="activity_card_wrapimg">
             <img 
-              class="activityCardWrapimgImg"
+              class="activity_card_wrapimg_img"
               src="img/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
               alt="Un port de plaisance remplis de bateau en premier plan avec une ville dans le second plan" 
             >
           </div>
-          <h3 class="activityCardTitle">Vieux Port</h3>
+          <h3 class="activity_card_title">Vieux Port</h3>
         </a>
-        <a href="#" class="activityCard activityCard2">
-          <div class="activityCardWrapimg">
+        <a href="#" class="activity_card activity_card2">
+          <div class="activity_card_wrapimg">
             <img 
-              class="activityCardWrapimgImg"
+              class="activity_card_wrapimg_img"
               src="./img/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
               alt="Desert rocailleux beige avec un fort elle aussi beige un peu plus loin dans l'image" 
             >
           </div>
-          <h3 class="activityCardTitle">Fort de Pomègues</h3>
+          <h3 class="activity_card_title">Fort de Pomègues</h3>
         </a>
-        <a href="#" class="activityCard activityCard3">
-          <div class="activityCardWrapimg">
+        <a href="#" class="activity_card activity_card3">
+          <div class="activity_card_wrapimg">
             <img 
-              class="activityCardWrapimgImg"
+              class="activity_card_wrapimg_img"
               src="./img/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
               alt="Paysage mélengeant roche et verdure en premier plan et une grande mer bleu en second plan" 
             >
           </div>
-          <h3 class="activityCardTitle">Parc National des Calanques</h3>
+          <h3 class="activity_card_title">Parc National des Calanques</h3>
         </a>
-        <a href="#" class="activityCard activityCard4">
-          <div class="activityCardWrapimg">
+        <a href="#" class="activity_card activity_card4">
+          <div class="activity_card_wrapimg">
             <img 
-              class="activityCardWrapimgImg"
+              class="activity_card_wrapimg_img"
               src="./img/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
               alt="Grande ville assez plate mais doté d'une colline qui mets en valeur un bâtiment, certainement religieux" 
             >
           </div>
-          <h3 class="activityCardTitle">Notre-Dame-de-la-Garde</h3>
+          <h3 class="activity_card_title">Notre-Dame-de-la-Garde</h3>
         </a>
-        <a href="#" class="activityCard activityCard5">
-          <div class="activityCardWrapimg">
+        <a href="#" class="activity_card activity_card5">
+          <div class="activity_card_wrapimg">
             <img 
-              class="activityCardWrapimgImg"
+              class="activity_card_wrapimg_img"
               src="./img/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
               alt="Longue vue sur terre en premier plan, mer en second plan et ile en troisième plan" 
             >
           </div>
-          <h3 class="activityCardTitle">Île du Frioul</h3>
+          <h3 class="activity_card_title">Île du Frioul</h3>
         </a>
-        <a href="#" class="activityCard activityCard6">
-          <div class="activityCardWrapimg">
+        <a href="#" class="activity_card activity_card6">
+          <div class="activity_card_wrapimg">
             <img 
-              class="activityCardWrapimgImg"
+              class="activity_card_wrapimg_img"
               src="./img/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
               alt="Majestueux batiment au pierres blanches dôté d'une fontaine, tout autant majestueuse" 
             >
           </div>
-          <h3 class="activityCardTitle">Parc Longchamp</h3>
+          <h3 class="activity_card_title">Parc Longchamp</h3>
         </a>
       </section>
       <!-- ACTIVITY-->
@@ -321,33 +321,33 @@
         <div class="footer">
 
             <!--A propos-->
-            <div class= "footerLeft">
+            <div class= "footer_left">
                 <h3 class="footer_title"><strong>A propos</strong></h3>
-                <ul class="footerLeftMenu">
-                    <li class="underFooter"><a href="#">Fonctionnement du site</a></li>
-                    <li class="underFooter"><a href="#">Conditions gnérales de vente</a></li>
-                    <li class="underFooter"><a href="#">Données et confidentialité</a></li>
+                <ul class="footer_left_menu">
+                    <li class="under_footer"><a href="#">Fonctionnement du site</a></li>
+                    <li class="under_footer"><a href="#">Conditions gnérales de vente</a></li>
+                    <li class="under_footer"><a href="#">Données et confidentialité</a></li>
                 </ul>
 
             </div>
 
             <!--Hbébergement-->
-            <div class="footerCenter">
+            <div class="footer_center">
                 <h3 class="footer_title"><strong>hébergements</strong></h3>
-                <ul class="footerCenterMenu">
-                    <li class="underFooter"><a href="#">Charte qualité</a></li>
-                    <li class="underFooter"><a href="#">Soumettre votre hôtel</a></li>
+                <ul class="footer_center_menu">
+                    <li class="under_footer"><a href="#">Charte qualité</a></li>
+                    <li class="under_footer"><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
 
 
             </div>
 
             <!--ASSITANCE-->
-            <div class="footerRight">
+            <div class="footer_right">
                 <h3 class="footer_title"><strong>Assistance</strong></h3>
-                <ul class="footerRightMenu">
-                    <li class="underFooter"><a href="#">Centre d'aide</a></li>
-                    <li class="underFooter"><a href="#">Nous contacter</a></li>
+                <ul class="footer_right_menu">
+                    <li class="under_footer"><a href="#">Centre d'aide</a></li>
+                    <li class="under_footer"><a href="#">Nous contacter</a></li>
                 </ul>
 
 

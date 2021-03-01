@@ -27,12 +27,12 @@ a {
     padding: 0 2rem;
     height: 2.813rem;
   }
-  .headerNav {
+  .header_nav {
     display: flex;
     align-items: center;
     grid-area: navbar;
   }
-  .headerNavLink {
+  .header_nav_link {
     padding: 2rem;
     font-weight: 500;
     text-align: center;
@@ -41,10 +41,10 @@ a {
     border-bottom: 3px transparent solid;
   }
 
-  .headerNavLink:hover {
+  .header_nav_link:hover {
     color: #0065FC;
   }
-  .headerSignup {
+  .header_signup {
     display: flex;
     align-items: center;
     grid-area: button;
@@ -59,7 +59,7 @@ a {
       grid-template-areas: "logo . navbar button";
     }
   
-    .headerNavLink:hover {
+    .header_nav_link:hover {
       border-top: 3px solid #0065FC;
     }
   }
@@ -71,21 +71,18 @@ a {
     .header_img {
       order: 0;
     }
-    .headerSignup {
+    .header_signup {
       order: 1;
     }
-    .headerNav {
+    .header_nav {
       order: 2;
     }
-    .headerNavLink {
+    .header_nav_link {
       border-top: none;
       border-bottom: 3px solid #F2F2F2;
       width: 50%;
     }
-    .headerNavLink[data-active=true] {
-      border-bottom-color: #0065FC;
-    }
-    .headerNavLink:hover {
+    .header_nav_link:hover {
       border-bottom-color: #0065FC;
     }
   }
@@ -110,19 +107,19 @@ a {
 
 /*-----------------------------barre de recherche-----------------------------------*/
 
-.post{
+.site-navigation{
     display: flex;
     margin-top: 20px;
     box-shadow: 0px 0px 0px 0px;
 
 }
-.position {
+.site-navigation_position {
     background: #f2f2f2;
     border-radius: 15px 0px 0px 15px;
     padding: 18px;
 }
 
-  .post button {
+  .site-navigation button {
     width: 10rem;
     border: 0;
     margin-right: 10px;
@@ -130,7 +127,7 @@ a {
     color: #fff;
     cursor: pointer;
   }
- .logo_recherche{
+ .logo--recherche{
     border-radius: 0px 15px 15px 0px;
   }
   #id{
@@ -145,36 +142,36 @@ a {
 } 
 @media screen and (max-width:600px)
 {
-    .logo_recherche i {
+    .logo--recherche i {
 
         display: inline-block;
     
     }
-    .logo_recherche span {
+    .logo--recherche span {
 
         display: none;
     
     }
     
     
-    .post > * {
+    .site-navigation > * {
     
         font-size: 15px;
         box-shadow: 0px 0px 0px 0px;
 
     
     }
-    .logo_recherche{
+    .logo--recherche{
         border-radius: 5px 10px 10px 5px;
     }
-    .post button {
+    .site-navigation button {
         width: 4rem;
     }
 }
 
 /*------------------------------- Filter PART--------------------------------------- */
 
-.themes {
+.filtre {
     height: auto;
     display: flex;
     flex-direction: row;
@@ -182,18 +179,18 @@ a {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-.themes h3 {
+.filtre h3 {
     margin-right: 30px;
     margin-left: 15px;
 }
-.filtre{
+.filtre_title{
     margin-top: 25px;}
-.list {
+.filtre_list {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
 }
-.item {
+.filtre_item {
     height: 50px;
     margin: 10px 20px 10px 0;
     padding-right: 20px;
@@ -202,7 +199,7 @@ a {
     display: flex;
     align-items: center;
  }
- .item i {
+ .filtre_item i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,7 +226,7 @@ a {
  }
 
 /* --------------------------------------------booking section---------------------------  */
-.hebergement{
+.location{
     margin-top: 50px;
 }
 
@@ -246,7 +243,7 @@ a {
 }
 /* -------------------------Section héberement à Marseille part --------------------------*/
 
-.location {
+.hebergement {
     width: 60%;
     background: #f2f2f2;
     border-radius: 20px;
@@ -258,7 +255,7 @@ a {
 
 @media screen and (max-width:900px)
 {
-    .location{
+    .hebergement{
         display: contents;
         
     }
@@ -266,12 +263,12 @@ a {
 }
 
 
-.headingSecondary{
+.hebergement_title{
     width: 81%;
     padding: 15px;
     cursor: pointer;
 }
-.annonce{
+.hebergement_annonce{
     width: calc(32% - 30px);
     background: #fff;
     padding: 5px;
@@ -282,15 +279,23 @@ a {
     transition: .2s ease-in-out;
     cursor: pointer;
 }
+.card__img {
+  width: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 25px 25px 0 0;
+  height: 130px;
+
+}
 @media screen and (max-width:900px)
 {
-    .headingSecondary{
+    .hebergement_title{
         width: 86%;
         cursor: pointer;
         margin-block-start: 0;
         margin-block-end: 0;
     }
-.annonce{
+.hebergement_annonce{
     width: 81%;
     background: #fff;
     padding: 5px;
@@ -301,16 +306,16 @@ a {
     transition: .2s ease-in-out;
     cursor: pointer;
 }
-.annonce-title{
+.annonce--title{
     margin-block-start: 0;
     margin-block-end: 0;
 }
-.annonce-parag {
+.annonce--parag {
     margin-block-start: 10px;
     margin-block-end: 0;
 }
 }
-.description{
+.annonce--description{
     padding: 5px;
 }
 .blue{
@@ -323,7 +328,7 @@ a {
     font-size: 13px;
     padding-top: 20px;
 }
-.location :hover {
+.hebergement :hover {
 
     transform: scale(1.02);
 
@@ -347,7 +352,7 @@ a {
     
 }
 
-.populaire {
+.popular {
     display: flex;
     flex-direction: column;
     width: 83%;
@@ -357,20 +362,22 @@ a {
     padding: 25px;
     word-break: break-word;
 }
-.titre2{
+.popular_title{
+    font-size:20px;
     cursor: pointer;
 }
-.block {
+.popular_heading {
     display: flex;
+    margin-top: 1rem;
     width: 100%;
     justify-content: space-between;
    
 }
-.block i {
+.popular_heading i {
     font-size: 25px;
 }
 
-.most-popular {
+.most--popular {
     margin-top: 50px;
     display: flex;
     background-color: #fff;
@@ -382,7 +389,7 @@ a {
     transition: .2s ease-in-out;
     cursor: pointer;
 }
-.most-popular img {
+.most--popular img {
     margin: 5px;
     height: auto;
     width: 120px;
@@ -390,30 +397,20 @@ a {
     margin-top: 5px;
     border-radius: 20px 0 0px 20px;
 }
-.resum {
+.popular_description {
     font-size: 15px;
     padding-bottom: 50px;
     margin: 10px;
 }
 
-
-
-.card__img {
-    width: 100%;
-    object-fit: cover;
-    box-sizing: border-box;
-    border-radius: 25px 25px 0 0;
-    height: 130px;
-
-}
-.populaire :hover {
+.popular :hover {
 
     transform: scale(1.02);
 
 }
 @media (max-width: 900px) {
 
-.populaire--title{
+.popular--title{
     margin-block-end: 0;
     margin-block-start: 0;
     word-break: break-word;
@@ -429,10 +426,10 @@ a {
     margin: 4rem 0;
     width:91%;
   }
-  .activityTitle {
+  .activity_title {
     grid-column: 1/-1;
   }
-  .activityCard {
+  .activity_card {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -440,20 +437,20 @@ a {
     flex-direction: column;
     transition-duration: 0.1s;
   }
-  .activityCard:hover {
+  .activity_card:hover {
     transform: scale(1.01);
   }
-  .activityCardWrapimg {
+  .activity_card_wrapimg {
     position: relative;
     flex: 1;
   }
-  .activityCardWrapimgImg {
+  .activity_card_wrapimg_img {
     position: absolute;
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
-  .activityCardTitle {
+  .activity_card_title {
     margin: 1.2rem 1.5rem;
   }
   
@@ -462,27 +459,27 @@ a {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
     }
-    .activityCard1 {
+    .activity_card1 {
       grid-row: 2/7;
       grid-column: 1/2;
     }
-    .activityCard2 {
+    .activity_card2 {
       grid-column: 2/3;
       grid-row: 2/5;
     }
-    .activityCard3 {
+    .activity_card3 {
       grid-column: 3/4;
       grid-row: 2/7;
     }
-    .activityCard4 {
+    .activity_card4 {
       grid-column: 4/5;
       grid-row: 2/3;
     }
-    .activityCard5 {
+    .activity_card5 {
       grid-column: 2/3;
       grid-row: 6/7;
     }
-    .activityCard6 {
+    .activity_card6 {
       grid-column: 4/5;
       grid-row: 4/7;
     }
@@ -522,42 +519,42 @@ a {
     
 
 }
-.footerLeft{
+.footer_left{
     width: 30%;
     padding: 1rem;
     
 }
-.footerCenter{
+.footer_center{
     width: 30%;
     padding: 1rem;
 
 }
 
 
-.footerRight{
+.footer_right{
     width: 30%;
     padding: 1rem;
 }
-.footerLeftMenu{
+.footer_left_menu{
     height: 5rem;
     list-style-type: none;
 
 
 }
-.footerCenterMenu{
+.footer_center_menu{
     list-style-type: none;
     height: 5rem;
 
 }
-.footerRightMenu{
+.footer_right_menu{
     height: 5rem;
     list-style-type: none;
 
 }
-.underFooter {
+.under_footer {
     margin: 10px;
 }
-.underFooter a{
+.under_footer a{
     text-decoration: none;
     color:black;
     
@@ -577,16 +574,16 @@ a {
         flex-direction: column;
         height:auto;
     }
-    .footerLeft{
+    .footer_left{
         width: 80%;
     padding: 1rem;
     }
-    .footerCenter{
+    .footer_center{
         width: 60%;
         height: 120px;
     padding: 1rem;
     }
-    .footerRight{
+    .footer_ight{
         width: 60%;
     padding: 1rem;
     }
