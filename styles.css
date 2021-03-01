@@ -100,6 +100,12 @@ a {
         margin-left: 20px;
         }
 }
+@media screen and (max-width:920px) and (min-width:475px){
+  .content {
+    margin-left:6rem;
+    }
+
+}
 
 
 /*-----------------------------barre de recherche-----------------------------------*/
