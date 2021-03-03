@@ -291,6 +291,7 @@ a {
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 
@@ -394,9 +395,9 @@ a {
     padding: 25px;
     word-break: break-word;
 }
-.popular_title{
-    font-size:20px;
-    cursor: pointer;
+.populaire_title{
+  font-size: 22px; 
+  cursor: pointer;
 }
 .popular_heading {
     display: flex;
@@ -617,4 +618,4 @@ a {
         width: 60%;
     padding: 1rem;
     }
-    
+}
